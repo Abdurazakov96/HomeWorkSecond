@@ -12,6 +12,9 @@
 		6CD398F322C28FF2001157DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD398F122C28FF2001157DE /* Main.storyboard */; };
 		6CD398F522C28FF3001157DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD398F422C28FF3001157DE /* Assets.xcassets */; };
 		6CD398F822C28FF3001157DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD398F622C28FF3001157DE /* LaunchScreen.storyboard */; };
+		6CD3990A22C29609001157DE /* vuhR4VZDzDs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CD3990922C29609001157DE /* vuhR4VZDzDs.jpg */; };
+		6CD3990D22C29C47001157DE /* rgu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD3990C22C29C47001157DE /* rgu.png */; };
+		6CD3990F22C29CA1001157DE /* GA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CD3990E22C29CA1001157DE /* GA.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6CD398F422C28FF3001157DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD398F722C28FF3001157DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CD398F922C28FF3001157DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD3990922C29609001157DE /* vuhR4VZDzDs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vuhR4VZDzDs.jpg; sourceTree = "<group>"; };
+		6CD3990C22C29C47001157DE /* rgu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rgu.png; sourceTree = "<group>"; };
+		6CD3990E22C29CA1001157DE /* GA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GA.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,57 @@
 		6CD398EC22C28FF2001157DE /* HomeWorkSecond */ = {
 			isa = PBXGroup;
 			children = (
-				6CD398ED22C28FF2001157DE /* AppDelegate.swift */,
-				6CD398EF22C28FF2001157DE /* ViewController.swift */,
-				6CD398F122C28FF2001157DE /* Main.storyboard */,
-				6CD398F422C28FF3001157DE /* Assets.xcassets */,
-				6CD398F622C28FF3001157DE /* LaunchScreen.storyboard */,
+				6CD3990B22C2960F001157DE /* Image */,
+				6CD398FF22C28FF9001157DE /* App */,
+				6CD3990022C2900D001157DE /* ViewController */,
+				6CD3990222C29043001157DE /* StoryBoard */,
+				6CD3990322C2907C001157DE /* Resources */,
 				6CD398F922C28FF3001157DE /* Info.plist */,
+				6CD398F422C28FF3001157DE /* Assets.xcassets */,
 			);
 			path = HomeWorkSecond;
+			sourceTree = "<group>";
+		};
+		6CD398FF22C28FF9001157DE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CD398ED22C28FF2001157DE /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CD3990022C2900D001157DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CD398EF22C28FF2001157DE /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6CD3990222C29043001157DE /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6CD398F122C28FF2001157DE /* Main.storyboard */,
+				6CD398F622C28FF3001157DE /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		6CD3990322C2907C001157DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6CD3990B22C2960F001157DE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6CD3990C22C29C47001157DE /* rgu.png */,
+				6CD3990922C29609001157DE /* vuhR4VZDzDs.jpg */,
+				6CD3990E22C29CA1001157DE /* GA.jpg */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD3990A22C29609001157DE /* vuhR4VZDzDs.jpg in Resources */,
 				6CD398F822C28FF3001157DE /* LaunchScreen.storyboard in Resources */,
+				6CD3990D22C29C47001157DE /* rgu.png in Resources */,
+				6CD3990F22C29CA1001157DE /* GA.jpg in Resources */,
 				6CD398F522C28FF3001157DE /* Assets.xcassets in Resources */,
 				6CD398F322C28FF2001157DE /* Main.storyboard in Resources */,
 			);
