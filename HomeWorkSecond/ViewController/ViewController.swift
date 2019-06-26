@@ -9,12 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBAction func openInstagran(_ sender: Any) {
+        if   let url = URL(string: "https://www.instagram.com/abdurazakov16") {
+            UIApplication.shared.open(url)
+        }
     }
-
-
+    
+    @IBAction func openVK(_ sender: Any) {
+        if   let url = URL(string: "https://www.vk.com/muhammad96") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    @IBAction func openTelegram(_ sender: Any) {
+        if   let url = URL(string: "https://t.me/Abdurazakov96") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
 }
 
