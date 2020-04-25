@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // MARK: - IBActions
+    
     @IBAction func openInstagran(_ sender: Any) {
         if   let url = URL(string: "https://www.instagram.com/abdurazakov16") {
             UIApplication.shared.open(url)
